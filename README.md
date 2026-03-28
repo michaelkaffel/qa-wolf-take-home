@@ -1,4 +1,15 @@
-# 🐺 QA Wolf Take Home Assignment
+# My Submission
+
+Solution by [Michael Kaffel](https://michaelkaffel.vercel.app).  
+Run with `npm i && node index.js`.
+
+Key implementation decisions:
+- Uses `span.age[title]` for precise ISO timestamps rather than relative display text
+- Paginates automatically via the "More" link until 100 articles are collected
+- Exits with code 1 on failure, making it CI-friendly
+
+
+## 🐺 QA Wolf Take Home Assignment
 
 Welcome to the QA Wolf take home assignment for our [QA Engineer](https://www.task-wolf.com/apply-qae) role! We appreciate your interest and look forward to seeing what you come up with.
 
